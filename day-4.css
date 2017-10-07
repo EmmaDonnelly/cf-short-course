@@ -1,0 +1,8 @@
+/* * { border: 1px solid red; } */
+/*this highlights all of the boxes on the webpage
+the asterix is a universal selector = affects everything*/
+
+.container {
+   width: 80%;
+   margin: 0 auto;
+}
