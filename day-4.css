@@ -1,8 +1,30 @@
 /* * { border: 1px solid red; } */
 /*this highlights all of the boxes on the webpage
 the asterix is a universal selector = affects everything*/
+* { box-sizing: border-box; }
 
 .container {
-   width: 80%;
+   width: 85%;
    margin: 0 auto;
+}
+
+.header h1 {
+   text-align: center;
+}
+
+.column {
+     display: inline-block;
+     width: 30%;
+     padding: 1%;
+     float: left;
+}
+
+.main-text {
+       clear: both;
+       padding-top: 30px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
