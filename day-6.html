@@ -11,7 +11,7 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- web fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Homemade+Apple|Open+Sans">
     <!-- personal CSS-->
     <link rel="stylesheet" href="css/styles.css">
 
@@ -24,48 +24,67 @@
 
   <body>
 
+<!-- navbar -->
+
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">altcodegirl</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#landing">WHAT</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#resources">RESOURCES</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!-- top banner -->
+
+    <div class="jumbotron">
+      <h1>altcodegirl</h1>
+      <div class="underhead">
+        <p><strong>a n00b learning code from teh interwebz</strong></p>
+      </div><!-- /underhead -->
+    </div><!-- /jumbotron -->
+
 <!-- landing segment -->
 
-    <div class="landing">
-        <div class="jumbotron">
-          <div class="container">
-            <h1>altcodegirl</h1>
-            <div class="underhead">
-              <p><strong>a n00b learning code from teh interwebz</strong></p>
-            </div><!-- /underhead -->
-          </div><!-- /container -->
-          <div class="container">
-              <p></p>
-              <a href="./contact.html">get in touch!</a>
-          </div><!-- /container -->
-        </div><!-- /jumbotron -->
-        <div class="container">
-          <!-- Example row of columns -->
-          <div class="row">
-            <div class="col-md-4">
-              <h2>what I've covered:</h2>
-              <p>HTML5, CSS3, Bootstrap, JavaScript, Ruby on Rails, p5.js</p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-            </div><!-- /col -->
-            <div class="col-md-4">
-              <h2>what's next:</h2>
-              <p>More JavaScript and Ruby, jQuery, Wordpress, PHO, MySQL, APIs, Mobile Apps, Python, MVC</p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-           </div><!-- /col -->
-            <div class="col-md-4">
-              <h2>where I'm learning:</h2>
-              <p>Online - Udemy, Code Academy, freecodecamp, Khan Academy.</p>
-              <p>Offline - RailsGirls, Women Who Code.</p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-            </div><!-- /col -->
-          </div><!-- /row -->
-          <hr>
-        </div> <!-- /container -->
-    </div><!-- /landing -->
+    <div class="container-fluid" id="landing">
+      <div class="container">
+        <div class="header">
+          <h1>what I'm learning</h1>
+        </div><!-- end header -->
+        <div class="row">
+          <div class="col-md-4">
+            <h2>covered so far:</h2>
+            <p>HTML5, CSS3, Bootstrap, JavaScript, Ruby on Rails, p5.js</p>
+          </div><!-- /col -->
+          <div class="col-md-4">
+            <h2>what's next:</h2>
+            <p>More JavaScript and Ruby, jQuery, Wordpress, PHO, MySQL, APIs, Mobile Apps, Python, MVC</p>
+          </div><!-- /col -->
+          <div class="col-md-4">
+            <h2>where:</h2>
+            <p>Online - Udemy, Code Academy, freecodecamp, Khan Academy.</p>
+            <p>Offline - RailsGirls, Women Who Code.</p>
+          </div><!-- /col -->
+        </div><!-- /row -->
+      </div><!-- end container -->
+    </div> <!-- /landing -->
 
 <!-- about me segment -->
 
-    <div class="aboutme">
+    <div class="container-fluid" id="about">
       <div class="container">
         <div class="header">
           <h1>About Me</h1>
@@ -82,7 +101,7 @@
           </ul>
         </div><!-- end skills column -->
         <div class="image column">
-          <img src="img/emma.jpg">
+          <img src="">
         </div><!-- end image column-->
         <div class="main-text">
           <h3>My Story</h3>
@@ -93,22 +112,63 @@
       </div><!-- end container -->
     </div> <!-- /aboutme -->
 
+<!-- faq segment -->
+
+    <div class="container-fluid" id="faq">
+      <div class="container">
+        <h1>frequently asked questions</h1>
+      </div><!-- /container -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2>beep</h2>
+            <p>beep</p>
+          </div><!-- /col -->
+          <div class="col-md-4">
+            <h2>beep</h2>
+            <p>beep</p>
+          </div><!-- /col -->
+          <div class="col-md-4">
+            <h2>beep</h2>
+            <p>beep</p>
+          </div><!-- /col -->
+        </div><!-- /row -->
+        <hr>
+      </div> <!-- /container -->
+    </div> <!-- / contact-->
+
+<!-- resources segment -->
+
+    <div class="container-fluid" id="resources">
+      <div class="container">
+        <h1>resources I find helpful</h1>
+      </div><!-- /container -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2>beep</h2>
+            <p>beep</p>
+          </div><!-- /col -->
+          <div class="col-md-4">
+            <h2>beep</h2>
+            <p>beep</p>
+          </div><!-- /col -->
+          <div class="col-md-4">
+            <h2>beep</h2>
+            <p>beep</p>
+          </div><!-- /col -->
+        </div><!-- /row -->
+        <hr>
+      </div> <!-- /container -->
+    </div> <!-- / resources-->
+
 <!-- contact me segment -->
 
-    <div class="contact">
-      <div class="contact-jumbotron">
-        <div class="contact-container">
-          <h1>contact me</h1>
-          <div class="contact-underhead">
-            <p><strong>please... I'm trapped in my laptop and it's lonely</strong></p>
-          </div><!-- /contact-underhead -->
-        </div><!-- /contact-container -->
-        <div class="contact-container">
-            <p></p>
-            <a href="">find out more</a>
-        </div>
-      </div><!-- /jumbotron -->
-      <div class="contact-container">
+    <div class="container-fluid" id="contact">
+      <div class="container">
+        <h1>contact me</h1>
+      </div><!-- /container -->
+      <div class="container">
         <div class="row">
           <div class="col-md-4">
             <h2>github</h2>
@@ -119,7 +179,7 @@
             <h2>twitter</h2>
             <p>More JavaScript and Ruby, jQuery, Wordpress, PHO, MySQL, APIs, Mobile Apps, Python, MVC</p>
             <p><a class="btn btn-default" href="https://twitter.com/altcodegirl" role="button">twitter</a></p>
-         </div><!-- /col -->
+          </div><!-- /col -->
           <div class="col-md-4">
             <h2>linked in</h2>
             <p>Online - Udemy, Code Academy, freecodecamp, Khan Academy. Offline - RailsGirls, Women Who Code.</p>
@@ -127,7 +187,7 @@
           </div><!-- /col -->
         </div><!-- /row -->
         <hr>
-      </div> <!-- /contact-container -->
+      </div> <!-- /container -->
     </div> <!-- / contact-->
 
 <!-- end of segments -->
