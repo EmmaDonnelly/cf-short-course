@@ -1,19 +1,36 @@
-/* index/ landing page */
-
-.jumbotron{
-  background-image: url("../img/rust.jpg");
-  background-size: cover;
+.container-fluid {
+  width: cover;
+  margin: 0;
+  padding: 0;
 }
 
-h1{
+.navbar {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #39B4E0 !important;
+}
+
+.jumbotron {
+  background-image: url("../img/rust.jpg");
+  background-size: cover;
+  padding: 50px 0px 50px 0px;
+}
+
+h1 {
   text-align: center;
-  background:rgba(255,255,255,0.7);
+  background:rgba(255,255,255,0.8);
   font-family: 'Homemade Apple', cursive;
   padding-top:20px;
   margin-bottom: 20px;
 }
 
-.underhead{
+.underhead {
   text-align: center;
   background:rgba(255,255,255,0.7);
   font-family: 'Open Sans', sans-serif;
@@ -22,46 +39,7 @@ h1{
 .container {
    width: 85%;
    margin: 0 auto;
-   font-family: 'Open Sans', sans-serif;
-}
-
-body::after {
-  content: "jumbotron";
-  background: url("../img/rust.jpg");
-  opacity: 0.4;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
-
-__________________________________________________________________________
-/* contact */
-
-.contact-jumbotron{
-  background-image: url("../img/stones.jpg");
-  background-size: cover;
-}
-
-h1{
-  text-align: center;
-  background:rgba(255,255,255,0.7);
-  font-family: 'Homemade Apple', cursive;
-  padding-top:20px;
-  margin-bottom: 20px;
-}
-
-.contact-underhead{
-  text-align: center;
-  background:rgba(255,255,255,0.7);
-  font-family: 'Open Sans', sans-serif;
-}
-
-.contact-container {
-   width: 85%;
-   margin: 0 auto;
+   padding: 0;
    font-family: 'Open Sans', sans-serif;
 }
 
@@ -73,6 +51,6 @@ body::after {
   left: 0;
   bottom: 0;
   right: 0;
-  position: absolute;
+  position: fixed;
   z-index: -1;
 }
