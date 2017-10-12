@@ -1,0 +1,89 @@
+* { border: 1px solid red; }
+
+body {
+    font: 20px 'Open Sans', sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+p {
+  font-size: 16px;
+  font-weight:bold;
+}
+
+.margin {margin-bottom: 45px;}
+
+.bg-1 {
+  background-image: url("../img/moss.jpg");
+  background-position: center bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1155px) {
+    .bg-1 {
+        background-size: auto 100%;
+    }
+}
+@media only screen and (min-width: 1250px) {
+    .bg-1 {
+        background-position: top center;
+    }
+}
+
+.bg-2 {
+  background-color: #2C273E;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.bg-3 {
+  background-color: #917F8F;
+  color: #fff;
+}
+
+.bg-4 {
+  background-color: #fff;
+  color: #3A3247;
+}
+
+.bg-5 {
+  background-color: #C6D757;
+  background-size: 100%
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+footer {
+  background-color: #4F910D;
+}
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.navbar {
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.navbar-nav  li a:hover {
+  color: #39B4E0 !important;
+}
+.navbar-brand{
+  font-family: 'Homemade Apple', cursive;
+  font-weight: bold;
+}
+.navbar.scrolled {
+    background: rgba(0, 0, 0, 0.78);
+}
+
+h1 {
+  font: 70px 'Homemade Apple', cursive;
+  font-weight: bolder;
+}
