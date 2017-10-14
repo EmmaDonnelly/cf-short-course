@@ -1,0 +1,158 @@
+/* To Do
+- change it to mobile first?
+- for tablet size show 3 in a row of the project squares
+- make buttons for social media
+- make buttons for skills
+- shrink header text when on mobile size
+- change background / style of accordion DONE
+- on desktop can accordion go side by side not down?
+- make footer smaller DONE
+- make footer text centered vertically
+- clean up unnecessary code
+- why is everything from about onwards in one container FIXED
+- work out how to size header image for different screens
+- make navbar transparent until scrolling?
+- make a contact form?
+*/
+
+/*generic stylinz*/
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+h1 {
+  font: 70px 'Homemade Apple', cursive;
+  font-weight: bold;
+}
+body {
+    font: 20px 'Open Sans', sans-serif;
+    font-weight: bold;
+    line-height: 1.8;
+}
+p {
+  font-size: 16px;
+}
+
+.margin-bottom {margin-bottom: 45px;}
+.margin-top {margin-top: 50px;}
+
+/*navbar stuff*/
+
+.navbar {
+  border: 0;
+  border-radius: 0;
+  font-weight: 300;
+  font-size: 1.6rem;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+.navbar-nav {
+  padding-right: 15px;
+}
+.navbar-nav  li a:hover {
+  color: #39B4E0 !important;
+}
+.navbar-brand{
+  font-family: 'Homemade Apple', cursive;
+  align: left;
+  font-weight: bold;
+  padding-top: 15px;
+}
+.navbar.scrolled {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/*accordion stuff*/
+
+#accordion {
+  color: black;
+  font-size: 12pt;
+  width: 80%;
+  margin:auto;
+}
+.panel {
+  border: none;
+}
+.panel-heading {
+  border-radius: 0px;
+  background-color: #221C2C;
+  color: white;
+}
+.panel-body {
+  border: none;
+  background-color: #917F8F;
+  color: black;
+  font-weight: lighter;
+}
+
+/*segments stuff*/
+
+.bg-1 {
+  background-image: url("../img/moss.jpg");
+  background-position: center bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: none;
+}
+.bg-2 {
+  background-color: #2C273E;
+  color: #fff;
+}
+.bg-3 {
+  background-color: #917F8F;
+  color: #fff;
+}
+.bg-4 {
+  background-color: #fff;
+  color: #3A3247;
+}
+.bg-5 {
+  background-color: #C6D757;
+  color: #fff;
+}
+
+
+/*gif / project stuff*/
+
+.col-sm-2 {
+  padding: 0px;
+}
+.row {
+  padding: 0px;
+}
+
+/*footer stuff*/
+
+.footer {
+  padding: 20px;
+  background-color: #4F910D;
+  font-weight: normal;
+  width: 100%;
+}
+
+/*different srreen sizes stuff*/
+
+@media only screen and (min-width: 936px) {
+    .bg-1 {
+        background-position: bottom center;
+    }
+}
+/* this all needs fixing */
+
+@media only screen and (max-width: 935px) {
+    .bg-1 {
+        background-size: auto 100%;
+        background-position: bottom center;
+    }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { ... }
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }
