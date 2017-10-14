@@ -1,2 +1,3 @@
 # cf-short-course
-Career Foundry Web Development Short Course
+Career Foundry Web Development Short Course <br>
+http://bit.ly/2y126sp
