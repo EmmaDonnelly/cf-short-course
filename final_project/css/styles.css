@@ -44,21 +44,28 @@ p {
   border-radius: 0;
   font-weight: 300;
   font-size: 1.6rem;
-  letter-spacing: 0.05em;
   cursor: pointer;
-}
-.navbar-nav {
   padding-right: 15px;
 }
+
 .navbar-nav  li a:hover {
   color: #39B4E0 !important;
 }
+
 .navbar-brand{
   font-family: 'Homemade Apple', cursive;
   align: left;
   font-weight: bold;
   padding-top: 15px;
 }
+
+.space {
+  border: 0px;
+  margin: 0px;
+  letter-spacing: 0.3em;
+  padding-left: 0.3em; /*to fix extra space on ends of words in navbar*/
+}
+
 .navbar.scrolled {
   background: rgba(0, 0, 0, 0.5);
 }
