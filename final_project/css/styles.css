@@ -7,7 +7,7 @@
 - change background / style of accordion DONE
 - on desktop can accordion go side by side not down?
 - make footer smaller DONE
-- make footer text centered vertically
+- make footer text centered vertically DONE
 - clean up unnecessary code
 - why is everything from about onwards in one container FIXED
 - work out how to size header image for different screens
@@ -137,6 +137,10 @@ p {
   background-color: #4F910D;
   font-weight: normal;
   width: 100%;
+}
+
+.pfooter {
+  margin: 0px;
 }
 
 /*different srreen sizes stuff*/
