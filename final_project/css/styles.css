@@ -130,6 +130,12 @@ p {
   padding: 0px;
 }
 
+/*contact stuff*/
+.fa {
+  color: white;
+  margin: 0px 10px 0px 10px;
+}
+
 /*footer stuff*/
 
 .footer {
