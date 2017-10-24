@@ -2,7 +2,7 @@
 - change it to mobile first?
 - for tablet size show 3 in a row of the project squares
 - make buttons for social media DONE
-- make buttons for skills
+- make buttons for skills link to stuff / expand? or unclickable
 - shrink header text when on mobile size
 - change background / style of accordion DONE
 - on desktop can accordion go side by side not down?
@@ -173,3 +173,4 @@ p {
 @media (max-width: 767px) { ... }
 /* Landscape phones and down */
 @media (max-width: 480px) { ... }
+
