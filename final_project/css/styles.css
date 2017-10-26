@@ -2,17 +2,19 @@
 - change it to mobile first?
 - for tablet size show 3 in a row of the project squares
 - make buttons for social media DONE
-- make buttons for skills link to stuff / expand? or unclickable
+- make buttons for skills link to stuff DONE - need to decide whether to make
+these link to stuff or stop them being clickable
 - shrink header text when on mobile size
 - change background / style of accordion DONE
-- on desktop can accordion go side by side not down?
+- on desktop can accordion go side by side not down? 
 - make footer smaller DONE
 - make footer text centered vertically DONE
 - clean up unnecessary code
 - why is everything from about onwards in one container FIXED
 - work out how to size header image for different screens
 - make navbar transparent until scrolling?
-- make a contact form? with email / name etc - WIP
+- make a contact form? with email / name etc - WIP - don't like
+current style or format or color.
 */
 
 /*generic stylinz*/
@@ -133,6 +135,7 @@ p {
 /*contact stuff*/
 
 input[type=text], select, textarea {
+    color: grey;
     width: 100%;
     padding: 5px;
     border: 1px solid #ccc;
