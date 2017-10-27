@@ -6,7 +6,7 @@
 these link to stuff or stop them being clickable
 - shrink header text when on mobile size
 - change background / style of accordion DONE
-- on desktop can accordion go side by side not down? 
+- on desktop can accordion go side by side not down?
 - make footer smaller DONE
 - make footer text centered vertically DONE
 - clean up unnecessary code
@@ -156,7 +156,7 @@ input[type=submit]:hover {
 }
 .contactform {
     border-radius: 5px;
-    background-color: #4CAF50;
+    background-color: #8e8789;
     padding: 10px;
     margin-bottom: 15px;
 }
