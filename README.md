@@ -2,4 +2,4 @@
 Career Foundry Web Development Short Course <br>
 http://bit.ly/2y126sp <br>
 <br>
-Final project is a one page personal website with multiple sections.
+Final project is a one page personal website with multiple sections (still a WIP)
